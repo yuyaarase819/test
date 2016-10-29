@@ -1,0 +1,28 @@
+{
+  "name": "js-dev-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webpack": "^1.5.0",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.3",
+    "require-dir": "^0.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
