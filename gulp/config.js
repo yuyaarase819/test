@@ -1,5 +1,4 @@
 const webpack = require("webpack");
-const path = require('path');
 
 var base = './public';
 var dest = base + '/assets';
@@ -29,6 +28,18 @@ module.exports = {
     },
     resolve: {
       extensions: ['', '.js']
+    },
+    module: {
+      loaders: [
+        {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          loader: "babel",
+          query:{
+            presets: ['react', 'es2015']
+          }
+        }
+      ]
     },
     plugins: [
       new webpack.optimize.UglifyJsPlugin()
