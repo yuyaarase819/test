@@ -2,13 +2,13 @@
 ## 用意している環境
 - gulp
 - webpack(JSのコンパイルにて使用)
+- ES6,JSX ➞ ES5
 - bower
 - scss
 - browser-sync
 
 ## 必要環境
 - npm 3.10.3
-- git ZIPダウンロードの場合不要
 
 ## 使用手順
 CUIより実行して下さい。
@@ -18,5 +18,4 @@ CUIより実行して下さい。
 3. gulp
 
 ## 追加予定
-- React実行環境
 - Express
