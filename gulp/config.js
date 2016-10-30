@@ -50,5 +50,12 @@ module.exports = {
   scss:{
     src:src+'/scss/**/*',
     dest:dest+'/css'
+  },
+
+  //pug
+  // SASS
+  pug:{
+    src:src+'/pug',
+    dest:base
   }
 }
