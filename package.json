@@ -25,8 +25,11 @@
     "webpack-uglify-js-plugin": "^1.1.9"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build & npm run watch & npm run browser",
+    "build": "gulp build",
+    "browser": "gulp browser-sync",
+    "watch": "gulp watch"
   },
-  "author": "",
+  "author": "mizuno-ta",
   "license": "MIT"
 }

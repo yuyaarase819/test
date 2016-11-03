@@ -1,11 +1,9 @@
 # WEBフロントエンド開発キット
-## 用意している環境
-- gulp
-- webpack(JSのコンパイルにて使用)
-- ES6,JSX ➞ ES5
-- bower
-- scss
-- browser-sync
+# Summary
+- フロントエンド開発のnpmタスク機能のまとめ
+
+## 使用できるコマンドは「npm run」より確認してください
+- gulpコマンドをnpm scriptsへまとめ
 
 ## 必要環境
 - npm 3.10.3
@@ -18,4 +16,5 @@ CUIより実行して下さい。
 3. gulp
 
 ## 追加予定
-- Express
+1. Redux
+2. Express
