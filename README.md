@@ -18,4 +18,4 @@ WEBフロントエンド開発のタスクをまとめたリポジトリ。gulp�
 MIT
 
 ## Author
-[tatsuyoshi mizuno](https://github.com/tcnksm)
+[tatsuyoshi mizuno](https://github.com/tatsuyoshi1225)
