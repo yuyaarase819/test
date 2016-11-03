@@ -5,8 +5,8 @@ WEBフロントエンド開発キット
 WEBフロントエンド開発のタスクをまとめたリポジトリ。gulpタスクを、npm scriptsから呼び出すように設計。
 
 ## Installl
-npm 3.10.3〜
-npm install -g gulp
+- npm 3.10.3〜
+- npm install -g gulp
 
 ## Usage or Install
 1. ``` git clone https://github.com/tatsuyoshi1225/js-dev-env.git ```
