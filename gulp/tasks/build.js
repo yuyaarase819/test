@@ -1,2 +1,2 @@
 var gulp = require('gulp');
-gulp.task('build', ['pug','sass','webpack']);
+gulp.task('build', ['pug','sass','browserify']);

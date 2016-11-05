@@ -5,10 +5,11 @@ var config = require('../config');
 gulp.task('browser-sync', function() {
     browserSync({
         server: {
-            baseDir: config.base
+            baseDir: config.docroot
         }
     })
-    gulp.watch(config.dest + "/**/**", function() {
+    gulp.watch(config.assets + "/**/**", function() {
         browserSync.reload();
     });
+
 });
