@@ -1,10 +1,8 @@
 import React from 'react';
-import {render} from 'react-dom';
+import ReactDOM from 'react-dom';
+import CommentBox from './components/Comment/CommentBox.js';
 
-class App extends React.Component {
-  render () {
-    return <h1> Hello React!!!</h1>;
-  }
-}
-
-render(<App/>, document.getElementById('example'));
+ReactDOM.render(
+  <CommentBox />,
+  document.getElementById('content')
+);
