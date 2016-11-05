@@ -6,7 +6,7 @@ export default class CommentList extends React.Component {
     return (
       <div className="CommentList">
         <h2>{this.props.title}</h2>
-        <Comment author="水野 竜与志" text="たまご！"></Comment>
+        <Comment author="tatsuyoshi" text="たまご！"></Comment>
       </div>
     );
   }
