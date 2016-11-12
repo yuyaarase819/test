@@ -1,8 +1,18 @@
+/*
+ *  Entry Point
+ */
 import React from 'react';
-import ReactDOM from 'react-dom';
-import CommentBox from './components/Comment/CommentBox.js';
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import todoApp from './reducers'
+import App from './components/App'
 
-ReactDOM.render(
-  <CommentBox />,
-  document.getElementById('content')
-);
+let store = createStore(todoApp)
+
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('todo')
+)
