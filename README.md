@@ -13,8 +13,7 @@ WEBフロントエンド開発のタスクをまとめたリポジトリ。gulp�
 
 ## Install
 - npm 3.10.3〜
-
-``` npm install -g gulp ```
+- ``` npm install -g gulp ```
 
 ## Usage or Install
 1. ``` git clone https://github.com/tatsuyoshi1225/js-dev-env.git ```
