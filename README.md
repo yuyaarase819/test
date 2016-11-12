@@ -4,6 +4,13 @@ WEBフロントエンド開発キット
 ## Description
 WEBフロントエンド開発のタスクをまとめたリポジトリ。gulpタスクを、npm scriptsから呼び出すように設計。
 
+## You can use
+- React
+- Redux
+- pug
+- scss
+- watch
+
 ## Install
 - npm 3.10.3〜
 - ``` npm install -g gulp ```
