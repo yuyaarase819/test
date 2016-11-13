@@ -7,12 +7,14 @@ WEBフロントエンド開発のタスクをまとめたリポジトリ。gulp�
 ## You can use
 - React
 - Redux
-- pug
-- scss
-- watch
+- Pug(旧JADE)
+- Sass
+- ECMA2015(ES6)
+- Browser-sync
+- Watch
 
 ## Install
-- npm 3.10.3〜
+- ``` npm 3.10.3〜 ```
 - ``` npm install -g gulp ```
 
 ## Usage or Install
