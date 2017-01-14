@@ -1,3 +1,17 @@
-extends layouts/_layout
-block contents
-  h1 コンテンツ！
+extends ./layouts/_body
+
+block seo
+  title フロントエンド開発キット
+  // Seo site metas
+  meta(name="description",content="")
+  meta(name="keywords",content="")
+  // Sns metas
+  meta(property="og:title",content="ページのタイトル")
+  meta(property="og:type",content="ページの種類")
+  meta(property="og:url",content="ページのURL")
+  meta(property="og:image",content="サムネイル画像のURL")
+  meta(property="og:site_name",content="サイト名")
+  meta(property="og:description",content="ページのディスクリプション")
+
+block content
+  | content
