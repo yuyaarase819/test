@@ -3,4 +3,5 @@ bower_components
 public/assets/css/**
 public/assets/js/**
 public/*.html
+.idea
 !.gitkeep
