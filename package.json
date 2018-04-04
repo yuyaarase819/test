@@ -9,13 +9,14 @@
     "url": "https://github.com/tatsuyoshi1225/js-dev-env#webフロントエンド開発キット"
   },
   "scripts": {
-    "start": "npm run build & npm run watch & npm run browser",
+    "start": "npm run build -- watch browser-sync",
     "build": "gulp build",
     "browser": "gulp browser-sync",
     "browserify": "gulp browserify",
     "watch": "gulp watch"
   },
   "dependencies": {
+    "gulp-plumber": "^1.2.0",
     "marked": "^0.3.6",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
