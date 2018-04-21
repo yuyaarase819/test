@@ -1,0 +1,37 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+$section-bg: #b7b5b5;
+
+.main__section {
+  background-color:$section-bg;
+  height:300px;
+  text-align:center;
+}
+
+.main__section:first-of-type{
+   background-color:#e27788;
+}
+
+.main__section:last-of-type{
+  background-color:pink;
+}
+
+.main__section--Title {
+  font-size:30px;
+  color:white;
+  padding:20px;
+}
+.main__section--contents{
+  display:flex;
+  justify-content:space-around;
+  font-size:20px;
+  color:white;
+}
+
+.main__section--items {
+  font-weight:normal;
+  list-style: none;
+}

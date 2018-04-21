@@ -11,7 +11,7 @@ gulp.task('sass', function () {
   gulp.src(config.entryFiles.css)
     .pipe(sourcemaps.init())
     .pipe(plumber())
-    .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(sass({outputStyle: 'expanded'}))
     .pipe(postcss([autoprefixer()]))
     .pipe(rename({
       basename: "bundle",

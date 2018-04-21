@@ -1,4 +1,4 @@
-@import "props";
-@import "theme";
-@import "layouts/header";
-@import "layouts/footer";
+@import "./layouts/normalize.scss";
+@import "./layouts/header.scss";
+@import "./layouts/footer.scss";
+@import "./layouts/layout.scss";

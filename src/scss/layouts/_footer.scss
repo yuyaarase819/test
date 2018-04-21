@@ -1,3 +1,16 @@
-/*****************
-  layouts / footer
- *******************/
+$footer-color:pink !default;
+$footer-hover-color:lighten($footer-color, 5%) !default;
+
+.l-footer{
+  display:flex;
+  justify-content: center;
+  height:100px;
+}
+
+.copyright {
+  align-self:center;
+  color:$footer-color;
+  &:hover{
+    color:$footer-hover-color;
+  }
+}

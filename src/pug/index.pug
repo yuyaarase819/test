@@ -1,16 +1,33 @@
-extends ./layouts/_body
+extends ./layout/_layout.pug
 
-block seo
-  title フロントエンド開発キット
-  // Seo site metas
-  meta(name="description",content="")
-  meta(name="keywords",content="")
-  // Sns metas
-  meta(property="og:title",content="ページのタイトル")
-  meta(property="og:type",content="ページの種類")
-  meta(property="og:url",content="ページのURL")
-  meta(property="og:image",content="サムネイル画像のURL")
-  meta(property="og:site_name",content="サイト名")
-  meta(property="og:description",content="ページのディスクリプション")
+block title
+  title Page Title
 
 block content
+  
+  section.main__section
+    h2.main__section--Title
+      |1つ目のセクション
+    .main__section--contents
+      - for (var x = 0; x < 3; x++)
+        p.main__section--comment
+          |内容
+  section.main__section
+    h2.main__section--Title
+      |2つ目のセクション
+    ul.main__section--contents
+      - var list = ["りんご","ばなな","みかん"]
+      each item in list
+        li.main__section--items= item
+  section.main__section
+    h2.main__section--Title
+      |3つ目のセクション
+    .main__section--contents
+      - for (var i = 0; i < 3; i++)
+        p 内容
+      - var list = ["1","2","3"]
+      each item in list
+        p= item
+      
+          
+  
